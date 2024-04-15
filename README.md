@@ -11,4 +11,4 @@
 
 ### Executing program (take EC as an example)
 * run /finetune/ProtBERT_finetune.py to build the regression model, result in result.csv
-* run /finetune/predict/predict.py to predict 50% hemolysis value of input sequences, input fasta file and output a csv file.
+* run /finetune/predict/predict.py to predict 50% hemolysis value of input sequences, input a fasta file and output a csv file.
