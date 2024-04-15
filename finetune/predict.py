@@ -42,7 +42,7 @@ def predict(model, fasta_path, csv_path):
 
 if __name__ == "__main__":
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    model_url = "https://ipmedumo-my.sharepoint.com/:u:/g/personal/p2214906_mpu_edu_mo/EQNDcFHVJ9VAll_hT1hvrYkBcTV_WHX8nrBphv_xf_-FXw?e=Dgc9PB"
+    model_url = "https://ipmedumo-my.sharepoint.com/:u:/g/personal/p2214906_mpu_edu_mo/EfNaaXTnusBFtvwJlnHbdZUBQRVyvZ0XeTjRVn1269DHMA?e=PYkSTd"
     model_path = "prot_bert_finetune_toxicity.pkl"
     if not os.path.exists(model_path):
         download(model_url, odel_path)
