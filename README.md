@@ -1,4 +1,4 @@
-# AMP_toxicity_regression
+# quantitative prediction of peptide toxicity
 
 ## Getting Started
 
